@@ -1,0 +1,132 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit";
+}
+
+h1 {
+  font-family: "Outfit";
+  font-weight: 600;
+  color: white;
+}
+
+h2 {
+
+  font-family: "Outfit";
+  font-weight: 300;
+  color: hsl(215, 20%, 50%)
+}
+
+hr{
+  color: hsl(215, 32%, 27%)
+}
+
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  margin: 3% auto;
+  width: 450px;
+  display: flex;
+  flex-flow: wrap;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.header {
+  margin-top: 25px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.imgEqui {
+  display: inline-block;
+  position: relative;
+  border-radius: 20px;
+  width: 400px;
+}
+
+.image {
+    position:relative;
+    display:inline-block;
+}
+
+.showIcon{
+  display: none;
+}
+
+.iconeShow{
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+
+}
+.image:hover .showIcon {
+  border-radius: 20px;
+  background:rgba(0,255,248,.4);
+  width:400px;
+  height:400px;
+  position:absolute;
+  top:0;
+  left:0;
+  display:inline-block;
+
+  }
+
+.main {
+  margin: 0 25px 25px;
+  text-align: left;
+}
+
+.ntf:hover{
+  color: #00FFF8;
+}
+.numbers{
+  justify-content: space-between;
+  display: flex;
+}
+
+.price{
+color: #00FFF8;
+}
+
+.days{
+color: #8BACD9;
+}
+
+.footer{
+  height: 60px;
+  display: flex;
+}
+
+.avatar{
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: grey;
+  width: 40px;
+  height: 40px;
+}
+
+.signature{
+  align-items: center;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.jules:hover{
+  color: #00FFF8;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
