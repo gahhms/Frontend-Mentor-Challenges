@@ -1,0 +1,85 @@
+
+body{
+    color: white;
+    font-family: "Lexend Deca";
+    background-color: hsl(233, 47%, 7%);
+}
+
+h1{
+    font-size: 2.4rem;
+    font-family: "Inter";
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.90);
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: "Inter";
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+h4{v
+    font-size: 1rem;
+    font-family: "Inter";
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-top: 0;
+
+}
+
+.card{
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1140px;
+    text-align: left;
+    background-color: hsl(244, 38%, 16%);
+    margin: 5% auto;
+}
+
+.main{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4% 10% 5% 7%;
+    text-align: left;
+    
+}
+
+.footer{
+    flex-grow: 2;
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aside {
+    width: 540px;
+    display: flex;
+    width: 540px;
+    
+}
+
+.aside img{
+    overflow: hidden;
+    position: relative;
+
+
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
